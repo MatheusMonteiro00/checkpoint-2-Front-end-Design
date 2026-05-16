@@ -7,4 +7,20 @@
 :root {
     --spacind-sm:10px;
     --spacind-md:30px;
+    --color-dark: #222;
+    --color-white: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Quicksand-Light;
+}
+
+.hero {
+    height: 100dvh;
+    
+}
+
+.cta{
+    color: var(--color-dark);
 }
