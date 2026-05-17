@@ -24,7 +24,7 @@
     --spacind-sm:10px;
     --spacind-md:20px;
     --spacind-lg:30px;
-    --color-neon-purle: #7C3AED;
+    --color-neon-purple: #7C3AED;
     --color-blue:#0B1020;
     --color-grey: #E5E7EB;
 }
@@ -54,7 +54,7 @@ body{
 
         h2{
             font-size: 2vmin;
-            color: var(--color-neon-purle);
+            color: var(--color-neon-purple);
         }
 
         h1{
@@ -74,8 +74,8 @@ body{
         .primary-btn{
             padding: var(--spacind-md);
             text-align: center;
-            background-color: var(--color-neon-purle);
-            border: 2px solid var(--color-neon-purle);
+            background-color: var(--color-neon-purple);
+            border: 2px solid var(--color-neon-purple);
             color: var(--color-grey);
             text-decoration: none;
             transition: .5s;
@@ -105,6 +105,7 @@ body{
 
         img 
         {
+            box-shadow: 1px 1px 5px var(--color-neon-purple);
             width: 100%;
             text-align: center;
             height: auto;
@@ -145,7 +146,7 @@ body{
         margin-block: var(--spacind-md);
 
         .card{
-            box-shadow: 1px 1px 5px var(--color-neon-purle);
+            box-shadow: 1px 1px 5px var(--color-neon-purple);
             width: 22%;
             min-height: 550px;
             padding: var(--spacind-md);
@@ -171,10 +172,12 @@ body{
 
             h2{
                 font-size: 2vmin;
+                width: 100%;
             }
 
             p{
                 font-size: 1.5vmin;
+                width: 100%;
             }
         }
     }
@@ -199,7 +202,7 @@ body{
 
         h2{
             font-size: 2vmin;
-            color: var(--color-neon-purle);
+            color: var(--color-neon-purple);
         }
 
         h1{
@@ -222,6 +225,7 @@ body{
 
         img 
         {
+            box-shadow: 1px 1px 5px var(--color-neon-purple);
             width: 100%;
             text-align: center;
             height: auto;
@@ -232,7 +236,7 @@ body{
 
 footer{
     height: 100px;
-    background-color: var(--color-neon-purle);
+    background-color: var(--color-neon-purple);
     text-align: center;
     padding: var(--spacind-lg);
     color: var(--color-grey);
