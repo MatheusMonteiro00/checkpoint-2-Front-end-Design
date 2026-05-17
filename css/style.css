@@ -9,6 +9,17 @@
     src: url(../fonts/Inter_28pt-Italic.ttf);
 }
 
+@keyframes viewAnimation {
+    from{
+        opacity: 0;
+        transform: scale(.5);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 :root {
     --spacind-sm:10px;
     --spacind-md:20px;
@@ -109,6 +120,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: var(--spacind-lg);
+    animation: viewAnimation both;
+    animation-timeline: view(70% 20%);
+    transition: .5s;
 
     h2{
         font-size: 2vmin;
@@ -173,6 +187,9 @@ body{
     gap: var(--spacind-lg);
     padding: var(--spacind-lg);
     color: var(--color-grey);
+    animation: viewAnimation both;
+    animation-timeline: view(70% 20%);
+    transition: .5s;
 
     .about-content{
         width: 55%;
