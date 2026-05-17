@@ -105,7 +105,7 @@ body{
 
         img 
         {
-            box-shadow: 1px 1px 5px var(--color-neon-purple);
+            box-shadow: 10px 10px 15px var(--color-neon-purple);
             width: 100%;
             text-align: center;
             height: auto;
@@ -225,7 +225,7 @@ body{
 
         img 
         {
-            box-shadow: 1px 1px 5px var(--color-neon-purple);
+            box-shadow: 10px 10px 15px var(--color-neon-purple);
             width: 100%;
             text-align: center;
             height: auto;
